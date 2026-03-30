@@ -1,0 +1,29 @@
+{
+  "welcomeScreen":{
+    "heading": "WELCOME TO SAMBA8",
+    "title" : "The 8 Pillars of\nWellness",
+    "que":"What is it?",
+    "ans": "The 8 pillars of wellness framework is a holistic approach that recognizes different interconnected aspects of our well-being. The goal is to maintain balance across these areas for optimal health and quality of life. Here’s a brief overview of each pillar:"
+  },
+  "introScreen": {
+    "title": "The 8 Pillars Explained"
+  },
+  "login": {
+    "title": "Sign In",
+    "subTitle": "Sign In to Continue",
+    "forgotPassword": "Forgot Password?",
+    "account":"Don't have an account?"
+  },
+  "labels": {
+    "email": "E-mail",
+    "emailPlaceholder": "Enter your e-mail",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password"
+  },
+  "buttonText":{
+    "getStarted":"Get Started",
+    "signIn":"Sign In",
+    "signUp":"Sign Up",
+    "skip": "Skip to Login"
+  }
+}
