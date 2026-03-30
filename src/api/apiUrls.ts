@@ -1,5 +1,5 @@
-export const BASE_URL = 'http://172.16.123.37:9090/api/';
-export const IMAGE_URL = 'http://172.16.123.37:9090/';
+export const BASE_URL = 'http://172.16.123.59:9090/api/';
+export const IMAGE_URL = 'http://172.16.123.59:9090/';
 // http://172.16.123.82:9090
 
 export const ENDPOINTS = {

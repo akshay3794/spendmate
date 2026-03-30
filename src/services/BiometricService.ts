@@ -66,9 +66,21 @@ class BiometricService {
         cancelButtonText: 'Cancel',
       });
 
-      return result.success;
+      return {
+        success: result.success,
+        cancelled: !result.success,
+      };
     } catch (error) {
-      return false;
+      const errorMessage = String(error).toLowerCase();
+      const cancelled =
+        errorMessage.includes('cancel') ||
+        errorMessage.includes('user') ||
+        errorMessage.includes('system');
+
+      return {
+        success: false,
+        cancelled,
+      };
     }
   }
 

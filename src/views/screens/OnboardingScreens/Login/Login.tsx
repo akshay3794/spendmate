@@ -91,10 +91,10 @@ const Login = ({ navigation }: Props) => {
         return;
       }
 
-      const isAuthSuccessful =
+      const biometricResult =
         await BiometricService.authenticateWithBiometrics();
 
-      if (isAuthSuccessful) {
+      if (biometricResult.success) {
         await BiometricService.enableBiometrics(authToken);
       } else {
         await BiometricService.resetBiometric();
@@ -104,7 +104,9 @@ const Login = ({ navigation }: Props) => {
     }
   };
 
-  const promptForBiometricEnable = async (biometryType: string | null) => {
+  const promptForBiometricEnable = async (
+    biometryType: string | null | undefined,
+  ) => {
     const biometricLabel =
       biometryType === 'FaceID'
         ? 'Face ID'

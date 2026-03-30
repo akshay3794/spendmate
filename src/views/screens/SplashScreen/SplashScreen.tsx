@@ -1,4 +1,4 @@
-import { Image, StatusBar, View } from 'react-native';
+import { BackHandler, Image, StatusBar, View } from 'react-native';
 import React, { useEffect } from 'react';
 import { StackNavigationProp } from '@react-navigation/stack';
 import CommonText from '../../components/commonText';
@@ -65,11 +65,13 @@ export default function SplashScreen({ navigation }: Props) {
           return;
         }
 
-        const isAuthSuccessful =
+        const biometricResult =
           await BiometricService.authenticateWithBiometrics();
 
-        if (isAuthSuccessful) {
+        if (biometricResult.success) {
           navigateTo('Dashboard');
+        } else if (biometricResult.cancelled) {
+          BackHandler.exitApp();
         } else {
           navigateTo('Onboarding');
         }
