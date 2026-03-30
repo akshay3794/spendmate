@@ -1,0 +1,121 @@
+export const categories = [
+  { label: 'Rent / Mortgage', value: 'rent_mortgage', category_id: 1 },
+  {
+    label: 'Maintenance & Repairs',
+    value: 'maintenance_repairs',
+    category_id: 1,
+  },
+  { label: 'Home Insurance', value: 'home_insurance', category_id: 1 },
+  { label: 'Property Tax', value: 'property_tax', category_id: 1 },
+  { label: 'Furniture', value: 'furniture', category_id: 1 },
+  { label: 'Home Decor', value: 'home_decor', category_id: 1 },
+
+  { label: 'Electricity', value: 'electricity', category_id: 2 },
+  { label: 'Water', value: 'water', category_id: 2 },
+  { label: 'Gas', value: 'gas', category_id: 2 },
+  { label: 'Internet', value: 'internet', category_id: 2 },
+  {
+    label: 'Mobile Recharge / Phone Bill',
+    value: 'mobile_phone_bill',
+    category_id: 2,
+  },
+  { label: 'Cable / DTH', value: 'cable_dth', category_id: 2 },
+
+  { label: 'Groceries', value: 'groceries', category_id: 3 },
+  { label: 'Restaurants', value: 'restaurants', category_id: 3 },
+  { label: 'Cafes', value: 'cafes', category_id: 3 },
+  { label: 'Street Food', value: 'street_food', category_id: 3 },
+  { label: 'Food Delivery', value: 'food_delivery', category_id: 3 },
+  { label: 'Snacks', value: 'snacks', category_id: 3 },
+
+  { label: 'Fuel', value: 'fuel', category_id: 4 },
+  { label: 'Public Transport', value: 'public_transport', category_id: 4 },
+  { label: 'Cab / Ride Sharing', value: 'cab_ride_sharing', category_id: 4 },
+  {
+    label: 'Vehicle Maintenance',
+    value: 'vehicle_maintenance',
+    category_id: 4,
+  },
+  { label: 'Parking', value: 'parking', category_id: 4 },
+  { label: 'Toll Charges', value: 'toll_charges', category_id: 4 },
+
+  { label: 'Clothing', value: 'clothing', category_id: 5 },
+  { label: 'Footwear', value: 'footwear', category_id: 5 },
+  { label: 'Accessories', value: 'accessories', category_id: 5 },
+  { label: 'Electronics', value: 'electronics', category_id: 5 },
+  { label: 'Household Items', value: 'household_items', category_id: 5 },
+  { label: 'Online Shopping', value: 'online_shopping', category_id: 5 },
+
+  { label: 'Movies', value: 'movies', category_id: 6 },
+  { label: 'OTT Subscriptions', value: 'ott_subscriptions', category_id: 6 },
+  { label: 'Games', value: 'games', category_id: 6 },
+  { label: 'Events & Concerts', value: 'events_concerts', category_id: 6 },
+  { label: 'Hobbies', value: 'hobbies', category_id: 6 },
+
+  {
+    label: 'Doctor Consultation',
+    value: 'doctor_consultation',
+    category_id: 7,
+  },
+  { label: 'Medicines', value: 'medicines', category_id: 7 },
+  { label: 'Health Insurance', value: 'health_insurance', category_id: 7 },
+  { label: 'Gym / Fitness', value: 'gym_fitness', category_id: 7 },
+  { label: 'Medical Tests', value: 'medical_tests', category_id: 7 },
+
+  {
+    label: 'School / College Fees',
+    value: 'school_college_fees',
+    category_id: 8,
+  },
+  { label: 'Online Courses', value: 'online_courses', category_id: 8 },
+  { label: 'Books', value: 'books', category_id: 8 },
+  { label: 'Coaching / Tuition', value: 'coaching_tuition', category_id: 8 },
+  { label: 'Certifications', value: 'certifications', category_id: 8 },
+
+  { label: 'Flights', value: 'flights', category_id: 9 },
+  { label: 'Train / Bus', value: 'train_bus', category_id: 9 },
+  { label: 'Hotel', value: 'hotel', category_id: 9 },
+  { label: 'Local Transport', value: 'local_transport', category_id: 9 },
+  { label: 'Sightseeing', value: 'sightseeing', category_id: 9 },
+
+  { label: 'Loan EMI', value: 'loan_emi', category_id: 10 },
+  {
+    label: 'Credit Card Payment',
+    value: 'credit_card_payment',
+    category_id: 10,
+  },
+  { label: 'Bank Charges', value: 'bank_charges', category_id: 10 },
+  { label: 'Investments', value: 'investments', category_id: 10 },
+  { label: 'Taxes', value: 'taxes', category_id: 10 },
+
+  { label: 'Childcare', value: 'childcare', category_id: 11 },
+  { label: 'Elder Care', value: 'elder_care', category_id: 11 },
+  { label: 'Personal Care', value: 'personal_care', category_id: 11 },
+  { label: 'Salon / Grooming', value: 'salon_grooming', category_id: 11 },
+  { label: 'Gifts', value: 'gifts', category_id: 11 },
+
+  { label: 'Pet Food', value: 'pet_food', category_id: 12 },
+  { label: 'Vet Visits', value: 'vet_visits', category_id: 12 },
+  { label: 'Grooming', value: 'pet_grooming', category_id: 12 },
+  { label: 'Accessories', value: 'pet_accessories', category_id: 12 },
+
+  { label: 'Music', value: 'music_subscription', category_id: 13 },
+  { label: 'Video Streaming', value: 'video_streaming', category_id: 13 },
+  { label: 'Software / Apps', value: 'software_apps', category_id: 13 },
+  { label: 'Cloud Storage', value: 'cloud_storage', category_id: 13 },
+
+  { label: 'Office Supplies', value: 'office_supplies', category_id: 14 },
+  { label: 'Travel (Work)', value: 'work_travel', category_id: 14 },
+  { label: 'Meals (Work)', value: 'work_meals', category_id: 14 },
+  { label: 'Software Tools', value: 'software_tools', category_id: 14 },
+  { label: 'Freelance Expenses', value: 'freelance_expenses', category_id: 14 },
+
+  { label: 'Donations', value: 'donations', category_id: 15 },
+  { label: 'Charity', value: 'charity', category_id: 15 },
+  { label: 'Penalties / Fines', value: 'penalties_fines', category_id: 15 },
+  {
+    label: 'Unexpected Expenses',
+    value: 'unexpected_expenses',
+    category_id: 15,
+  },
+];
