@@ -1,0 +1,21 @@
+{
+  "home": {
+    "welcome": "Welcome to\nSamba8"
+  },
+  "login": {
+    "title": "Welcome",
+    "subTitle": "Sign In to Continue",
+    "forgotPassword": "Forgot Password?",
+    "account":"Don't have an account?"
+  },
+  "labels": {
+    "email": "E-mail",
+    "emailPlaceholder": "Enter your e-mail",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password"
+  },
+  "buttonText":{
+    "signIn":"Sign In",
+    "signUp":"Sign Up"
+  }
+}
