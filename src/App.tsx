@@ -22,9 +22,11 @@ import {
   flushPendingNotificationNavigation,
   navigationRef,
 } from './navigation/navigationService';
+import { initializeGoogleAds } from './utils/googleAdsService';
 
 const AppContent = () => {
   useEffect(() => {
+    initializeGoogleAds();
     Orientation.lockToPortrait();
   }, []);
 

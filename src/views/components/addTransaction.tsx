@@ -26,6 +26,7 @@ import Toast from 'react-native-toast-message';
 import Loader from './loader';
 import { addTransaction } from '../../store/slices/transactionSlice';
 import { subcategoryItem } from '../../store/slices/subCategorySlice';
+import { showTransactionSuccessAd } from '../../utils/googleAdsService';
 
 type Props = {
   showModal: boolean;
@@ -128,6 +129,7 @@ const AddTransaction = ({ showModal, onClose }: Props) => {
         dispatch(addTransaction(response.data));
         resetForm();
         onClose();
+        await showTransactionSuccessAd();
       }
     } catch (error: any) {
       Toast.show({
